@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import '../index.css';
 
-const API = 'http://127.0.0.1:8000/api/v1';
+const API = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api/v1';
 
 function AdminDashboard() {
   const navigate = useNavigate();
