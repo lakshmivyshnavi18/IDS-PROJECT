@@ -1,0 +1,9 @@
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.env
+backend/alerts.db
+backend/alerts.db-journal
+frontend/dist/
+.DS_Store
