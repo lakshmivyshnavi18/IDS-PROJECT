@@ -1,2 +1,6 @@
+[project]
+name = "ids-project"
+version = "0.1.0"
+
 [tool.vercel]
 entrypoint = "api.main:app"
